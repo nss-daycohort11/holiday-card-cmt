@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <title>Lexicon Translator</title>
+
+   <!-- BOOTSTRAP STYLES -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-fluid">
+<div class="row">
+   <!-- spacer for md screen -->
+   <div class="col-md-3"></div>
+
+   <!-- CONTENT -->
+   <div class="col-md-6">
+      <h1>Text to translate: </h1>
+      <div><input type="textarea" class="cardText" rows="10" cols="50"></div>
+       
+      <div>
+       <input type="radio" name="language" value="italian"> to Italian
+       <input type="radio" name="language" value="german"> to German
+       <input type="radio" name="language" value="norwegian"> to Norwegian
+      </div>
+      <div>
+      <button name="translate" type="button">Click me to translate!</button>
+      </div>
+       
+      <div class="translated-text well"></div>
+
+</div> <!-- END CONTENT col-md-6 -->
+   
+       
+   <!-- spacer for md screen -->
+   <div class="col-md-3"></div>
+</div> <!-- END ROW -->
+</div> <!-- END CONTAINER-FLUID -->
+
+   <!-- BOOTSTRAP -->
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+	
+	<!-- our scipts -->
+	<script src="script.js"></script>
+	<script src="translator.js"></script>
+ 	<script src="toItalian.js"></script>
+
+</body>
+</html>

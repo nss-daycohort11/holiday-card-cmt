@@ -6,8 +6,11 @@ Represent a small bilingual lexicon as a Javascript object (see example below) a
 
 This is Swedish, so please choose other languages. You can add as many words/translations as you wish so that the user can write more complex holiday cards.
 
-1. One team member creates a Github project and adds the others as collaborators.
-1. Each team member picks a language.
+COMPLETED 1. One team member creates a Github project and adds the others as collaborators.
+COMPELTED 1. Each team member picks a language.
+	cs - italian
+	mh - norwegian
+	tw - german
 1. Your project should have one HTML file that has a textarea, a select element with an option for each language, a button with a label of "Translate", and an empty DOM element into which the translated text will be inserted.
 1. The team must discuss and choose a single variable name that will hold all of the logic that the team creates (i.e. see the Sedan example above).
 1. Each team member will create one JavaScript file that contains one IIFE. Each teammate's IIFE will augment the other teammates' IIFEs.
@@ -19,7 +22,6 @@ This is Swedish, so please choose other languages. You can add as many words/tra
 >
 > Find a way to write your IIFEs so that it doesn't matter whose module gets created first.
 
----
 
 > **Optional Bonus 2**
 >
